@@ -1,0 +1,220 @@
+// .tb-groups {
+//     width: 100%;
+//     border-collapse: collapse;
+//     background-color: #f9fcff;
+//     font-family: Arial, sans-serif;
+//     text-align: center;
+//     margin-right: 20%;
+//     margin-top: 10%;
+//     width: 78%;
+// }
+
+// .headers-groups th {
+//     background-color: #eaf6fd;
+//     color: #333;
+//     padding: 10px;
+//     padding-top: 12px;
+//     padding-bottom: 12px;
+
+// }
+// .headers-groups th:first-child{
+//     border-top-right-radius: 10px;
+//     border-bottom-right-radius: 10px;
+// }
+
+// .headers-groups th:last-child{
+//     border-top-left-radius: 10px;
+//     border-bottom-left-radius: 10px;
+// }
+
+// .rows-groups{
+//     margin-top: 20px;
+// }
+// .body-groups .rows-groups td {
+//     padding: 10px;
+//     border-top: 1px solid #404040;
+//     border-bottom: 1px solid #404040;
+//     color: #333; 
+// }
+
+// .body-groups .rows-groups td:first-child{
+//     border-right: 1px solid #404040;
+//     border-top-right-radius: 10px;
+//     border-bottom-right-radius: 10px;
+// }
+
+// .body-groups .rows-groups td:last-child{
+//     border-left: 1px solid #404040;
+//     border-top-left-radius: 10px;
+//     border-bottom-left-radius: 10px;
+// }
+
+// .rows-groups td:last-child {
+//     text-align: right;
+// }
+
+// .rows-groups td:first-child {
+//     font-weight: bold;
+// }
+
+// .rows-groups td {
+//     vertical-align: middle;
+// }
+.filterBy {
+    width: 78%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #001218;
+    margin-right: 20%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.options {
+    width: 78%;
+    height: 50px;
+    border-radius: 10px;
+    // background-color: #001218;
+    margin-right: 20%;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row-reverse;
+    color: #ffffff;
+    align-items: center;
+}
+
+.options select {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 15px;
+    text-align: center;
+    font :bold;
+}
+
+.options select>* {
+    padding: 4px;
+}
+
+
+
+.all-groups {
+    width: 78%;
+    height: 50px;
+    border-radius: 10px;
+    // background-color: #001218;
+    margin-right: 20%;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    // justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+}
+
+#add-group {
+    width: 42px;
+    height: 42px;
+    background-color: #08D2D9;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.coaches {
+    display: flex;
+    flex-direction: row;
+}
+
+.coaches>* {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.group-detailes {
+    width: 78%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #001218;
+    margin-right: 20%;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    justify-content: center;
+
+}
+
+.group-detailes>* {
+    padding-left: 10px;
+}
+
+.tb-groups {
+    width: 78%;
+    border-collapse: separate;
+    border-spacing: 0 3px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-right: 20%;
+    margin-top: 3px;
+}
+
+
+
+.headers-groups th {
+    background-color: #eaf6fd;
+    color: #333;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.headers-groups th:first-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.headers-groups th:last-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.body-groups .rows-groups {
+    background-color: #ffffff;
+    /* צבע רקע לכל שורה */
+    border-radius: 10px;
+    /* עיגול פינות השורות */
+}
+
+.body-groups .rows-groups td {
+    padding: 10px;
+    color: #333;
+    border-top: 1px solid #BAC0C3;
+    border-bottom: 1px solid #BAC0C3;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.body-groups .rows-groups td:first-child {
+    border-right: 1px solid #BAC0C3;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.body-groups .rows-groups td:last-child {
+    border-left: 1px solid #BAC0C3;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.rows-groups td {
+    vertical-align: middle;
+}
